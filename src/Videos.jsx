@@ -22,6 +22,7 @@ export const Videos = () => {
 									title={video.title}
 									id={video.youtubeID}
 									noq={video.noq}
+									image={video.image}
 								/>
 							</Link>
 						) : (
@@ -30,6 +31,7 @@ export const Videos = () => {
 								title={video.title}
 								id={video.youtubeID}
 								noq={video.noq}
+								image={video.image}
 							/>
 						)
 					)}

@@ -1,6 +1,5 @@
-import image from "../assets/images/3.jpg";
 import classes from "../styles/Video.module.css";
-const Video = ({ title, id, noq }) => {
+const Video = ({ title, id, noq, image }) => {
 	return (
 		<div className={classes.video}>
 			<img src={image} alt={title} />
