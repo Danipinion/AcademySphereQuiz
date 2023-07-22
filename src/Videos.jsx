@@ -14,6 +14,7 @@ export const Videos = () => {
 					hasMore={hasMore}
 					loader="Loading..."
 					next={() => setPage(page + 8)}
+					style={{ overflow: "hidden" }}
 				>
 					{videos.map((video, index) =>
 						video.noq > 0 ? (
